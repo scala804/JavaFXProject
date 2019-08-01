@@ -25,7 +25,7 @@ public class MainController extends Application {
             // 为表格设置控制器
             loader.setController(new PersonController());
             VBox vBox = loader.load();
-            primaryStage.setTitle("数据生成ddddd工具");
+            primaryStage.setTitle("数据生成工具");
             Scene scene = new Scene(vBox);
             primaryStage.sizeToScene();
             primaryStage.setScene(scene);

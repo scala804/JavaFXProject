@@ -51,6 +51,8 @@
             <artifactId>springboot-javafx-support</artifactId>
             <version>${springboot-javafx-support.version}</version>
         </dependency>
+
+
     </dependencies>
     
     <build>

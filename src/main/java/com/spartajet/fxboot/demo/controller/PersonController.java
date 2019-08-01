@@ -30,8 +30,8 @@ public class PersonController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
-      /*  fxLabel.setText("Address Book");
-        fxLabel.setFont(new Font("Arial", 20));*/
-        /*vBox.getChildren().addAll(fxLabel);*/
+         fxLabel.setText("Test");
+        /* fxLabel.setFont(new Font("Arial", 20));
+         vBox.getChildren().addAll(fxLabel);*/
     }
 }
