@@ -9,17 +9,18 @@
 
 <VBox fx:id="vBox" prefHeight="180.0" prefWidth="717.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-      <TableView prefHeight="165.0" prefWidth="695.0">
+      <Label fx:id="fxLabel" text="" />
+      <TableView fx:id="tableView" prefHeight="165.0" prefWidth="695.0">
         <columns>
-            <TableColumn prefWidth="75.0" text="序号" />
-            <TableColumn prefWidth="75.0" text="字段ID" />
-            <TableColumn prefWidth="75.0" text="字段名称" />
-            <TableColumn prefWidth="75.0" text="输入类型" />
-            <TableColumn prefWidth="75.0" text="长度或边界" />
-            <TableColumn prefWidth="75.0" text="是否为空" />
-            <TableColumn prefWidth="133.0" text="是否允许其它类型" />
-            <TableColumn prefWidth="133.0" text="操作" />
-        </columns>
+          <TableColumn prefWidth="75.0" text="序号" />
+          <TableColumn prefWidth="75.0" text="字段ID" />
+          <TableColumn prefWidth="75.0" text="字段名称" />
+          <TableColumn prefWidth="75.0" text="输入类型" />
+          <TableColumn prefWidth="75.0" text="长度或边界" />
+          <TableColumn prefWidth="75.0" text="是否为空" />
+          <TableColumn prefWidth="133.0" text="是否允许其它类型" />
+          <TableColumn prefWidth="133.0" text="操作" />
+      </columns>
       </TableView>
       <HBox prefHeight="100.0" prefWidth="200.0">
          <children>
@@ -46,13 +47,5 @@
             </Button>
          </children>
       </HBox>
-       <!-- <TableView fx:id="perTable">
-            <columns> 
-                <TableColumn fx:id="firstName" prefWidth="75.0" text="姓氏" />
-                <TableColumn fx:id="lastName" prefWidth="75.0" text="名字" />
-                <TableColumn fx:id="email" prefWidth="75.0" text="邮箱" />
-            </columns>
-        </TableView>-->
-      <!--  <HBox fx:id="hBox" />-->
     </children>
 </VBox>
